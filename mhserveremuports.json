@@ -1,0 +1,16 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "4306",
+        "Name": "Main Game Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "MainGamePort"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": "8080",
+        "Name": "Game AUTH Port",
+        "Description": "Port used for main game traffic",
+        "Ref": "GameAUTHPort"
+    }
+]

@@ -1,1 +1,15 @@
-[]
+[{
+        "DisplayName":"Server Version",
+        "Category":"Server Settings",
+        "Description":"Sets the server version (https://github.com/Crypto137/MHServerEmu/releases)",
+        "Keywords":"server,version",
+        "FieldName":"ServerVersion",
+        "InputType":"text",
+        "IsFlagArgument":false,
+        "ParamFieldName":"ServerVersion",
+        "IncludeInCommandLine":false,
+        "DefaultValue":"0.3.0",
+        "Placeholder":"0.3.0 | 0.3.0test",
+        "Required":true,
+        "EnumValues":{}
+    }]

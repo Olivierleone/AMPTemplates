@@ -4,21 +4,10 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/Crypto137/MHServerEmu/releases/download/{{ServerVersion}}/MHServerEmu-{{ServerVersion}}.zip",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
-    {
-        "UpdateStageName": "Extract",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "(MHServerEmu{{ServerVersion}}.zip)",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "GitHubDownload",
-        "UpdateSourceConditionValue": "true",
-        "DeleteAfterExtract": true,
+        "UpdateSourceTarget":"{{$FullBaseDir}}",
+        "UnzipUpdateSource":true,
+        "OverwriteExistingFiles":true,
+        "DeleteAfterExtract":true,
         "OneShot": false
     }
 ]

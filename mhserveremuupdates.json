@@ -2,9 +2,8 @@
     {
         "UpdateStageName": "MHServerEMU",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "GithubRelease",
-        "UpdateSourceData": "MHServerEmu-{{ServerVersion}}.zip",
-        "UpdateSourceArgs": "https://github.com/Crypto137/MHServerEmu/releases/{{ServerVersion}}",
+        "UpdateSource": "FetchURL",
+        "UpdateSourceData": "https://github.com/Crypto137/MHServerEmu/releases/download/{{ServerVersion}}/MHServerEmu-{{ServerVersion}}.zip",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,

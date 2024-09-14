@@ -1,7 +1,7 @@
 Meta.DisplayName=MHServerEMU
 Meta.Description=
 Meta.Arch=x86_64
-Meta.Author=DrunkenMonk0001 - Made with AMP Config Generator
+Meta.Author=DrunkenMonk0001
 Meta.URL=https://github.com/Crypto137/MHServerEmu
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
@@ -79,7 +79,7 @@ App.RootDir=./mhserveremu/
 Meta.DisplayImageSource=url:
 App.BaseDirectory=./mhserveremu/serverfiles/
 App.WorkingDir=serverfiles
-App.ExecutableWin=serverfiles\MHServerEmu.exe
+App.ExecutableWin=serverfiles/MHServerEmu.exe
 App.ExecutableLinux=serverfiles/
 App.LinuxCommandLineArgs=
 App.Ports=@IncludeJson[mhserveremuports.json]

@@ -7,17 +7,16 @@
         "UpdateSourceArgs": "/C cd C:/AMPDatastore/Instances/MHServerEMU01/mhserveremu & gh release download -R DrunkenMonk0001/PrivateMH -p MHServerEmu.zip --clobber",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
+        "DeleteAfterExtract": false,
         "OneShot": false
     },
     {
         "UpdateStageName": "extract zip",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "./mhserveremu/MHServerEmu.zip",
-        "UpdateSourceTarget": "serverfiles/",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
+        "UpdateSourceArgs": "MHServerEmu.zip",
+        "UnzipUpdateSource": true,
+        "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
         "OneShot": false
     }

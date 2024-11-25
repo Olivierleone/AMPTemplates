@@ -1,13 +1,24 @@
 [
     {
-        "UpdateStageName": "MHServerEMU",
+        "UpdateStageName": "downloading zip",
         "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "FetchURL",
-        "UpdateSourceData": "https://github.com/DrunkenMonk0001/PrivateMH/releases/download/newbuild/MHServerEmu.zip",
-        "UpdateSourceTarget":"{{$FullBaseDir}}",
-        "UnzipUpdateSource":true,
-        "OverwriteExistingFiles":true,
-        "DeleteAfterExtract":true,
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "gh",
+        "UpdateSourceArgs": "release download -R DrunkenMonk0001/PrivateMH -p MHServerEmu.zip",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
+        "OneShot": false
+    },
+    {
+        "UpdateStageName": "extract zip",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "ExtractArchive",
+        "UpdateSourceArgs": "./mhserveremu/",
+        "UpdateSourceTarget": "./mhserveremu/",
+        "UnzipUpdateSource": false,
+        "OverwriteExistingFiles": false,
+        "DeleteAfterExtract": true,
         "OneShot": false
     }
 ]

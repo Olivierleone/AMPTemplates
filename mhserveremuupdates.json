@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
         "UpdateSourceData": "cmd.exe",
-        "UpdateSourceArgs": "/C gh release download -R DrunkenMonk0001/PrivateMH -p MHServerEmu.zip",
+        "UpdateSourceArgs": "/C cd C:/AMPDatastore/Instances/MHServerEMU01/mhserveremu & gh release download -R DrunkenMonk0001/PrivateMH -p MHServerEmu.zip",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
         "DeleteAfterExtract": true,

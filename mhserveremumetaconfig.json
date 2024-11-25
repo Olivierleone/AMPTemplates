@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "serverfiles/MHServerEmu/config.ini",
+        "ConfigFile": "serverfiles/Config.ini",
         "ConfigType": "ini",
         "AutoMap": true
     }

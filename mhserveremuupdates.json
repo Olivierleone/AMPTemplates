@@ -3,7 +3,7 @@
         "UpdateStageName": "downloading zip",
         "UpdateSourcePlatform": "Windows",
         "UpdateSource": "Executable",
-        "UpdateSourceData": "gh.exe",
+        "UpdateSourceData": "./GenericApplication/gh.exe",
         "UpdateSourceArgs": "release download -R DrunkenMonk0001/PrivateMH -p MHServerEmu.zip",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,

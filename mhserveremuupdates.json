@@ -14,11 +14,9 @@
         "UpdateStageName": "extract zip",
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
-        "UpdateSourceArgs": "MHServerEmu.zip",
-		"UpdateSourceTarget":"{{$FullBaseDir}}",
-        "UnzipUpdateSource": true,
+        "UpdateSourceArgs": "test.zip",
+	"UpdateSourceTarget":"{{$FullBaseDir}}",
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,
-        "OneShot": false
     }
 ]

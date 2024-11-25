@@ -1,15 +1,4 @@
 [
-	{
-        "UpdateStageName": "testauth",
-        "UpdateSourcePlatform": "Windows",
-        "UpdateSource": "Executable",
-        "UpdateSourceData": "/GenericApplication/gh.exe",
-        "UpdateSourceArgs": "auth login",
-        "UnzipUpdateSource": false,
-        "OverwriteExistingFiles": false,
-        "DeleteAfterExtract": true,
-        "OneShot": false
-    },
     {
         "UpdateStageName": "downloading zip",
         "UpdateSourcePlatform": "Windows",

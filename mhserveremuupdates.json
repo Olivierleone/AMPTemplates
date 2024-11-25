@@ -15,6 +15,7 @@
         "UpdateSourcePlatform": "All",
         "UpdateSource": "ExtractArchive",
         "UpdateSourceArgs": "MHServerEmu.zip",
+		"UpdateSourceTarget":"{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
         "DeleteAfterExtract": true,

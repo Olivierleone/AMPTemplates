@@ -67,10 +67,10 @@ Console.SleepDelayMinutes=5
 Console.DozeDelay=2
 Console.AutoRetryCount=5
 Console.SleepStartThresholdSeconds=25
-Console.AppReadyRegex=^\^\[AuthServer\]\s+AuthServer\s+is\s+listening$
-Console.UserJoinRegex=^\^User\s+\(\?\[PlayerManagerService\]\s+Logging\s+in\s+player\.\+\?\)\s+\\\(\(\?<userid>-\?d\+\)\\\)\s+connected\s+from\s+\\\[::ffff:\(\?<endpoint>\.\+\?\)\\\]\$$
-Console.UserLeaveRegex=^$
-Console.UserChatRegex=^$
+Console.AppReadyRegex=^\.\*AuthServer\s+is\s+listening$
+Console.UserJoinRegex=^\.\*\(Accepted\s+and\s+registered\s+client\s+\.\*Account=\(\?<userid>\[a-z\/A-Z\]\+\)\)\$$
+Console.UserLeaveRegex=^\.\*\(Removed\s+client\s+\.\*Account=\(\?<userid>\[a-z\/A-Z\]\+\)\)\$$
+Console.UserChatRegex=^\.\*\(\\\[GroupingManagerService\\\]\s+\\\[LOCAL\\\]\s+\\\[\(\?<userid>\[a-z\/A-Z\]\+\)\)\.\+:\s+\(\?<message>\.\*\)\$$
 Meta.OS=1
 Meta.ConfigManifest=mhserveremuconfig.json
 Meta.MetaConfigManifest=mhserveremumetaconfig.json

@@ -68,8 +68,8 @@ Console.DozeDelay=2
 Console.AutoRetryCount=5
 Console.SleepStartThresholdSeconds=25
 Console.AppReadyRegex=^.*AuthServer is listening.*$
-Console.UserJoinRegex=^.*(\[PlayerManagerService\] Successful auth for client \[Account=(?<username>[a-z|A-Z|0-9]+)).*$
-Console.UserLeaveRegex=^.*(Removed client \[Account=(?<username>[a-z|A-Z|0-9]+)).*$
+Console.UserJoinRegex=^.*(\[PlayerManagerService\] Successful auth for client \[Account=(?<username>[a-z|A-Z|0-9]+).*SessionId=(?<userid>[a-z|A-Z|0-9]+)).*$
+Console.UserLeaveRegex=^.*(Removed client \[Account=(?<username>[a-z|A-Z|0-9]+).* from game.*serverGameId=(?<userid>[a-z|A-Z|0-9]+)).*$
 Console.UserChatRegex=^.*(\[GroupingManagerService\] \[LOCAL\] \[(?<username>[a-z|A-Z|0-9]+)).+: (?<message>.*)$
 Meta.OS=1
 Meta.ConfigManifest=mhserveremuconfig.json

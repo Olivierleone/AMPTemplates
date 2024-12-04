@@ -1,6 +1,6 @@
 [
     {
-        "ConfigFile": "Config.ini",
+        "ConfigFile": "./mhserveremu/Config.ini",
         "ConfigType": "ini",
 		"Importable": true,
         "AutoMap": true,

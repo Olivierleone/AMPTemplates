@@ -4,7 +4,5 @@
         "ConfigType": "ini",
 		"Importable": true,
         "AutoMap": true,
-		"ConfigFormat": "{0}={1}",
-        "ConfigFormatRegex": "^(?<key>.+?)[A-Z]*=(?<value>.*)$"
     }
 ]

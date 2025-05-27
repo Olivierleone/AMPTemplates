@@ -75,7 +75,7 @@ Meta.OS=1
 Meta.ConfigManifest=mhserveremuconfig.json
 Meta.MetaConfigManifest=mhserveremumetaconfig.json
 Meta.ConfigRoot=mhserveremu.kvp
-Meta.DisplayImageSource=url:
+Meta.DisplayImageSource=url:https://images.squarespace-cdn.com/content/v1/5985346fdb29d60e9d206ab3/1503506895353-M0KQUTDJO5VVPV5DD42Q/bg-registration-omega.jpg?format=2500w
 App.RootDir=./mhserveremu/
 App.BaseDirectory=./mhserveremu/
 App.WorkingDir=

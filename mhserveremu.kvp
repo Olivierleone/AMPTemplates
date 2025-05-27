@@ -1,7 +1,9 @@
 Meta.DisplayName=MHServerEMU
 Meta.Description=MHServerEMU server
+Meta.OS=Windows, Linux
+Meta.AarchSupport=Unknown
 Meta.Arch=x86_64
-Meta.Author=DrunkenMonk - Made with AMP Config Generator
+Meta.Author=OlivierLeone - Made with AMP Config Generator
 Meta.URL=https://github.com/DrunkenMonk0001/PrivateMH
 Meta.MinAMPVersion=2.4.6.6
 Meta.SpecificDockerImage=
